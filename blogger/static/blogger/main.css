@@ -86,7 +86,7 @@ body {
 
   .local-body {
     box-sizing:content-box;
-    overflow-x: scroll;
+    overflow-x:auto;
   }
 
   .local-body > p img {
