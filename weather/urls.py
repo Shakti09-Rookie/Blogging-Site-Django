@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.index, name="weather-main")
+    # disabling weather functionality for the time being
+    # path('', views.index, name="weather-main")
 ]
